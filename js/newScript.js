@@ -41,6 +41,7 @@ const userInfo = {
 };
 
 function onSubmit() {
+  e.preventDefault();
   const { name, lasName, email, phoneNumber } = userInfo;
   if (name || lasName || email || phoneNumber === "") {
     return;
