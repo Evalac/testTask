@@ -1,0 +1,195 @@
+:root {
+  --font-weight-semibold: 600;
+  --font-weight-bold: 700;
+  --font-letter-spacing-210: 0.01em;
+  --font-text-decoration-null: none;
+  --font-style-roman: normal;
+  --font-size-40: 16px;
+  --font-size-30: 14px;
+  --font-line-height-20: 20px;
+  --font-line-height-10: 16px;
+  --color-gray-130: #171717;
+  --color-background-barraglobo: #ffffff;
+  --color-globocom: #0669de;
+  --color-g1: #c4170c;
+  --color-ge: #06aa48;
+  --color-gshow: #ff6700;
+  --color-globoplay: #fb0334;
+  --color-receitas: #a5147d;
+  --color-oglobo: #1e4c9a;
+  --color-blue-hover: #1063e0;
+  --spacing-50: 8px;
+  --spacing-60: 12px;
+  --spacing-90: 24px;
+  --glb-header-divider-display: none;
+  --glb-grid-header-row--top-image: 65;
+  --g-fnt-vr-dis-roman: var(--font-variation-settings-display-normal-roman);
+  --g-fnt-ft-dis-roman: var(--font-feature-settings-display-roman);
+  --g-fnt-vr-bk-roman: var(--font-variation-settings-book-normal-roman);
+  --g-fnt-ft-bk-roman: var(--font-feature-settings-book-roman);
+  --g-fnt-weight-light: 300;
+  --g-fnt-weight-regular: 400;
+  --g-fnt-weight-semibold: 600;
+  --g-fnt-weight-bold: 700;
+  --g-fnt-size-20: 12px;
+  --g-fnt-size-30: 14px;
+  --g-fnt-size-35: 15px;
+  --g-fnt-size-40: 16px;
+  --g-fnt-size-50: 18px;
+  --g-fnt-size-60: 20px;
+  --g-fnt-size-70: 24px;
+  --g-fnt-size-80: 28px;
+  --g-fnt-size-90: 32px;
+  --g-fnt-size-110: 40px;
+  --g-fnt-lh-10: 16px;
+  --g-fnt-lh-20: 20px;
+  --g-fnt-lh-25: 22px;
+  --g-fnt-lh-30: 24px;
+  --g-fnt-lh-36: 26px;
+  --g-fnt-lh-40: 28px;
+  --g-fnt-lh-50: 32px;
+  --g-fnt-lh-60: 36px;
+  --g-fnt-lh-70: 40px;
+  --g-fnt-lh-80: 48px;
+  --g-fnt-ls-170: 0;
+  --g-fnt-ls-210: -0.01em;
+  --g-fnt-ls-230: -0.015em;
+  --g-fnt-ls-250: -0.02em;
+  --g-fnt-ls-270: -0.025em;
+  --g-fnt-ls-290: -0.03em;
+  --g-fnt-ls-330: -0.04em;
+  --g-fnt-ls-340: -0.045em;
+  --glb-sp-mg-side: 20px;
+  --glb-sp-head-mg-v: 20px;
+  --glb-sp-head-mg-v2: calc(var(--glb-sp-head-mg-v) * 2);
+  --glb-sp-subtitle-mg-top: 12px;
+  --glb-sp-signature-from-mg-bottom: 4px;
+  --glb-sp-sharebar-mg-top: 8px;
+  --glb-sp-sharebar-mg-bottom: var(--glb-sp-head-mg-v2);
+  --glb-sp-content-top-image-mg-bottom: 12px;
+  --glb-sp-banner-top-mg-bottom: 0;
+  --glb-sp-col-header-mg-side: var(--glb-sp-col-padding-side);
+  --glb-sp-col-header-width: 100%;
+  --glb-sp-col-header-max-width: var(--glb-sp-col-max-width);
+}
+
+.container_text {
+  display: flex;
+  /* display: inline-block; */
+  justify-content: center;
+}
+
+.header_container {
+  position: relative;
+  background-color: #c4170c;
+  height: 74px;
+}
+
+.list_container {
+  display: flex;
+  height: 48px;
+  justify-content: space-between;
+}
+
+.list {
+  margin: 0;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  margin-left: 250px;
+}
+
+.list_item {
+  margin-right: 15px;
+  font-family: var(--font-family-primary);
+  font-weight: var(--font-weight-semibold);
+  font-size: var(--font-size-40);
+  font-style: var(--font-style-roman);
+  line-height: var(--font-line-height-20);
+  letter-spacing: -0.16px;
+  font-variant-numeric: lining-nums proportional-nums;
+  font-feature-settings: 'ss01' on, 'ss03' off;
+  font-stretch: normal;
+  font-variation-settings: 'opsz' 10;
+  cursor: pointer;
+}
+
+.globocom {
+  color: var(--color-globocom);
+}
+.g1 {
+  color: var(--color-g1);
+}
+.ge {
+  color: var(--color-ge);
+}
+.gshow {
+  color: var(--color-gshow);
+}
+.globoplay {
+  color: var(--color-globoplay);
+}
+.receitas {
+  color: var(--color-receitas);
+}
+.oglobo {
+  color: var(--color-oglobo);
+}
+
+.logo {
+  position: absolute;
+  top: 15px;
+  margin-left: 380px;
+}
+
+.list_login {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 320px;
+}
+
+.list_login_item {
+  color: var(--color-gray-130);
+  font-family: var(--font-family-primary);
+  font-weight: var(--font-weight-semibold);
+  font-size: var(--font-size-40);
+  font-style: var(--font-style-roman);
+  line-height: var(--font-line-height-20);
+  letter-spacing: -0.16px;
+  font-variant-numeric: lining-nums proportional-nums;
+  font-feature-settings: 'ss01' on, 'ss03' off;
+  font-stretch: normal;
+  font-variation-settings: 'opsz' 10;
+  cursor: pointer;
+  &:first-child {
+    margin-right: 30px;
+  }
+}
+
+.input_el {
+  position: absolute;
+  top: 22px;
+  right: 300px;
+}
+
+.input {
+  width: 164px;
+  height: 33px;
+  border-radius: 4px;
+  border: none;
+  background-color: #a41a11;
+}
+
+::placeholder {
+  color: #ffffff;
+}
+
+.text {
+  font-feature-settings: var(--g-fnt-ft-dis-roman);
+  font-size: var(--g-fnt-size-110);
+  font-variation-settings: var(--g-fnt-vr-dis-roman);
+  letter-spacing: var(--g-fnt-ls-340);
+  line-height: var(--g-fnt-lh-80);
+}
