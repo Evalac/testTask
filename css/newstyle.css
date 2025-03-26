@@ -1,4 +1,4 @@
-@import 'intl-tel-input/build/css/intlTelInput.css';
+@import "intl-tel-input/build/css/intlTelInput.css";
 
 .newTitle {
   font-weight: 900;
@@ -64,4 +64,16 @@
 
 .menu-item-link {
   pointer-events: none;
+}
+
+.content-text_italic {
+  font-style: italic;
+}
+
+.depoimentos_title {
+  font-weight: 700;
+  font-size: 24px;
+  letter-spacing: -0.5px;
+  line-height: 1;
+  font-family: opensans, helvetica, arial, sans-serif;
 }

@@ -19,6 +19,7 @@ const refs = [
   document.querySelector(".feed"),
   document.querySelector(".footer"),
   document.querySelector("#menu-container"),
+  document.querySelector("#mais-lidas"),
 ];
 
 btnSumbit.addEventListener("click", onSubmit);
