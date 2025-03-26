@@ -54,7 +54,7 @@ function onSubmit() {
   userInfo.phoneNumber = "";
 
   formSubmit.reset();
-  window.location.href = "./thanks.html";
+  window.location.href = "testTask" + "./thanks.html";
 }
 
 function onChange(e) {
