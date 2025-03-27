@@ -28,8 +28,6 @@ formSubmit.addEventListener("keydown", onChange);
 refs.map((a) => {
   a.addEventListener("click", (e) => {
     e.preventDefault();
-    console.log("click");
-
     formConteiner.scrollIntoView({ block: "center", behavior: "smooth" });
   });
 });
